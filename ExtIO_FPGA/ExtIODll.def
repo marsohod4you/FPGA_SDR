@@ -1,0 +1,30 @@
+; Declares the module parameters for the DLL.
+
+LIBRARY      "ExtIO_Example"
+; DESCRIPTION  'Winrad/HDSDR ExtIO DLL Example for MS VC2008'
+
+; Note: The definitions for exported functions can be obtained by enabling MAP file
+; generation and including exported symbols in map file  (Linker -> /MAP /MAPINFO:EXPORTS)
+; Then look at the end of MAP file for names.
+;
+
+EXPORTS
+    CloseHW			= _CloseHW@0
+	GetHWLO			= _GetHWLO@0
+	GetHWSR			= _GetHWSR@0
+	GetStatus		= _GetStatus@0
+	GetTune			= _GetTune@0
+	;GetMode			= _GetMode@0
+	;GetFilters		= _GetFilters@12
+	;ModeChanged		= _ModeChanged@1
+	InitHW			= _InitHW@12
+	OpenHW			= _OpenHW@0
+	RawDataReady	= _RawDataReady@16
+	SetCallback		= _SetCallback@4
+	SetHWLO			= _SetHWLO@4
+	;ShowGUI			= _ShowGUI@0
+	;HideGUI			= _HideGUI@0
+	StartHW			= _StartHW@4
+	StopHW			= _StopHW@0
+	TuneChanged		= _TuneChanged@4
+	;IFLimitsChanged = _IFLimitsChanged@8
