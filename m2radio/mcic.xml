@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<MEGACORE title="CIC"  version="13.1"  build="162"  iptb_version="1.3.0 Build 162"  format_version="120" >
+<NETLIST_SECTION class="altera.ipbu.flowbase.netlist.model.CICModel"  active_core="mcic_cic" >
+<STATIC_SECTION>
+<PRIVATES>
+<NAMESPACE name = "parameterization">
+<PRIVATE name = "filter_type" value="Decimator"  type="STRING"  enable="1" />
+<PRIVATE name = "megawizard2" value="1"  type="STRING"  enable="1" />
+<PRIVATE name = "activate_atstartup" value="1"  type="STRING"  enable="1" />
+<PRIVATE name = "window_location" value="center"  type="STRING"  enable="1" />
+<PRIVATE name = "Device Family" value="Cyclone III"  type="STRING"  enable="1" />
+<PRIVATE name = "Number of Stages" value="5"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Rate Change Factor" value="200"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Differential Delay" value="2"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Input Bit Width" value="16"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Output Bit Width" value="16"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Hogenauer Pruning" value="1"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "Support AST back pressure" value="1"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "Full Output Resolution" value="0"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "Map Integrator Registers Into" value="Logic Element"  type="STRING"  enable="0" />
+<PRIVATE name = "Map Differentiator Registers Into" value="Logic Element"  type="STRING"  enable="0" />
+<PRIVATE name = "Ram Type of Integrator Registers" value="AUTO"  type="STRING"  enable="0" />
+<PRIVATE name = "Ram Type of Differentiator Registers" value="AUTO"  type="STRING"  enable="0" />
+<PRIVATE name = "Number of channels per interface" value="1"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Number of interfaces" value="1"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Output Rounding Option" value="3"  type="INTEGER"  enable="1" />
+<PRIVATE name = "Integrator pipeline number" value="1"  type="INTEGER"  enable="0" />
+<PRIVATE name = "Use pipeline in integrator" value="0"  type="BOOLEAN"  enable="0" />
+<PRIVATE name = "Variable Rate Change Factor" value="0"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "Maximum Rate Change Factor" value="3"  type="INTEGER"  enable="0" />
+<PRIVATE name = "Minimum Rate Change Factor" value="2"  type="INTEGER"  enable="0" />
+</NAMESPACE>
+<NAMESPACE name = "simgen_enable">
+<PRIVATE name = "language" value="Verilog HDL"  type="STRING"  enable="1" />
+</NAMESPACE>
+<NAMESPACE name = "hdl_generator">
+<PRIVATE name = "report" value="1"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "blackbox" value="0"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "component" value="0"  type="BOOLEAN"  enable="1" />
+<PRIVATE name = "symbol" value="0"  type="BOOLEAN"  enable="1" />
+</NAMESPACE>
+<NAMESPACE name = "simgen">
+<PRIVATE name = "filename" value="mcic.vo"  type="STRING"  enable="1" />
+</NAMESPACE>
+<NAMESPACE name = "greybox">
+<PRIVATE name = "filename" value="mcic_syn.v"  type="STRING"  enable="1" />
+</NAMESPACE>
+<NAMESPACE name = "quartus_settings">
+<PRIVATE name = "DEVICE" value="EP3C10E144C8"  type="STRING"  enable="1" />
+<PRIVATE name = "FAMILY" value="Cyclone III"  type="STRING"  enable="1" />
+</NAMESPACE>
+<NAMESPACE name = "serializer"/>
+</PRIVATES>
+<FILES/>
+<PORTS>
+<PORT name = "clock" direction="INPUT"  connect_to="clk"  default="NODEFVAL"  width="1"  description="" />
+<PORT name = "reset" direction="INPUT"  connect_to="reset"  default="NODEFVAL"  width="1"  description="" />
+</PORTS>
+<LIBRARIES/>
+</STATIC_SECTION>
+</NETLIST_SECTION>
+</MEGACORE>

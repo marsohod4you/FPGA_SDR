@@ -1,0 +1,24 @@
+set_global_assignment -entity "mfir" -library "mfir" -name IP_TOOL_NAME "altera_fir_compiler_ii"
+set_global_assignment -entity "mfir" -library "mfir" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "mfir" -library "mfir" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "mfir" -name MISC_FILE [file join $::quartus(qip_path) "mfir.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+
+set_global_assignment -library "mfir" -name VERILOG_FILE [file join $::quartus(qip_path) "mfir.v"]
+set_global_assignment -library "mfir" -name VERILOG_FILE [file join $::quartus(qip_path) "mfir/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/auk_dspip_math_pkg_hpfir.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/auk_dspip_lib_pkg_hpfir.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/auk_dspip_avalon_streaming_controller_hpfir.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/auk_dspip_avalon_streaming_sink_hpfir.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/auk_dspip_avalon_streaming_source_hpfir.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/auk_dspip_roundsat_hpfir.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/dspba_library_package.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/dspba_library.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/mfir_0002_rtl.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/mfir_0002_ast.vhd"]
+set_global_assignment -library "mfir" -name VHDL_FILE [file join $::quartus(qip_path) "mfir/mfir_0002.vhd"]
+set_global_assignment -library "mfir" -name SDC_FILE [file join $::quartus(qip_path) "mfir/mfir_0002.sdc"]
+
+set_global_assignment -entity "mfir_0002" -library "mfir" -name IP_TOOL_NAME "altera_fir_compiler_ii"
+set_global_assignment -entity "mfir_0002" -library "mfir" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "mfir_0002" -library "mfir" -name IP_TOOL_ENV "mwpim"

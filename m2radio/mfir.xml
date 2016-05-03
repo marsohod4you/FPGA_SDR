@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<instance entity-name="altera_fir_compiler_ii" version="13.1" >
+<generic name="deviceFamily" value="Cyclone III" />
+<generic name="filterType" value="Decimation" />
+<generic name="interpFactor" value="1" />
+<generic name="decimFactor" value="2" />
+<generic name="L_bandsFilter" value="All taps" />
+<generic name="clockRate" value="1" />
+<generic name="clockSlack" value="0" />
+<generic name="speedGrade" value="Medium" />
+<generic name="coeffReload" value="false" />
+<generic name="baseAddress" value="0" />
+<generic name="readWriteMode" value="Read/Write" />
+<generic name="backPressure" value="false" />
+<generic name="symmetryMode" value="Non Symmetry" />
+<generic name="delayRAMBlockThreshold" value="20" />
+<generic name="dualMemDistRAMThreshold" value="1280" />
+<generic name="mRAMThreshold" value="1000000" />
+<generic name="hardMultiplierThreshold" value="20" />
+<generic name="inputRate" value="1" />
+<generic name="inputChannelNum" value="1" />
+<generic name="inputType" value="Signed Binary" />
+<generic name="inputBitWidth" value="16" />
+<generic name="inputFracBitWidth" value="0" />
+<generic name="coeffSetRealValue" value="-180.0,749.0,533.0,-2366.0,-1915.0,5805.0,5496.0,-10629.0,-13977.0,13055.0,32767.0,13055.0,-13977.0,-10629.0,5496.0,5805.0,-1915.0,-2366.0,533.0,749.0,-180.0" />
+<generic name="coeffType" value="Signed Binary" />
+<generic name="coeffScaling" value="Auto" />
+<generic name="coeffBitWidth" value="16" />
+<generic name="coeffFracBitWidth" value="0" />
+<generic name="outType" value="Signed Binary" />
+<generic name="outMSBRound" value="Truncation" />
+<generic name="outMsbBitRem" value="0" />
+<generic name="outLSBRound" value="Rounding" />
+<generic name="outLsbBitRem" value="6" />
+<generic name="resoureEstimation" value="1000,1200,10" />
+<generic name="bankCount" value="1" />
+<generic name="bankDisplay" value="0" />
+</instance>

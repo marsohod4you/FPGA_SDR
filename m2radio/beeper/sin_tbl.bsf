@@ -1,0 +1,112 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 256 120)
+	(text "sin_tbl" (rect 105 0 149 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 104 25 116)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "address_a[5..0]" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "address_a[5..0]" (rect 4 16 92 31)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 112 32)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "address_b[5..0]" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "address_b[5..0]" (rect 4 48 92 63)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 112 64)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 4 80 33 95)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 176 96))
+	)
+	(port
+		(pt 256 32)
+		(output)
+		(text "q_a[15..0]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "q_a[15..0]" (rect 195 16 251 31)(font "Arial" (font_size 8)))
+		(line (pt 256 32)(pt 192 32)(line_width 3))
+	)
+	(port
+		(pt 256 64)
+		(output)
+		(text "q_b[15..0]" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "q_b[15..0]" (rect 195 48 251 63)(font "Arial" (font_size 8)))
+		(line (pt 256 64)(pt 192 64)(line_width 3))
+	)
+	(drawing
+		(text "64 Word(s)" (rect 134 -15 230 178)(font "Arial" )(vertical))
+		(text "RAM" (rect 148 -29 226 142)(font "Arial" )(vertical))
+		(text "Block Type: AUTO" (rect 40 106 174 226)(font "Arial" ))
+		(line (pt 128 24)(pt 168 24))
+		(line (pt 168 24)(pt 168 80))
+		(line (pt 168 80)(pt 128 80))
+		(line (pt 128 80)(pt 128 24))
+		(line (pt 112 27)(pt 120 27))
+		(line (pt 120 27)(pt 120 39))
+		(line (pt 120 39)(pt 112 39))
+		(line (pt 112 39)(pt 112 27))
+		(line (pt 112 34)(pt 114 36))
+		(line (pt 114 36)(pt 112 38))
+		(line (pt 104 36)(pt 112 36))
+		(line (pt 120 32)(pt 128 32)(line_width 3))
+		(line (pt 112 59)(pt 120 59))
+		(line (pt 120 59)(pt 120 71))
+		(line (pt 120 71)(pt 112 71))
+		(line (pt 112 71)(pt 112 59))
+		(line (pt 112 66)(pt 114 68))
+		(line (pt 114 68)(pt 112 70))
+		(line (pt 104 68)(pt 112 68))
+		(line (pt 120 64)(pt 128 64)(line_width 3))
+		(line (pt 104 36)(pt 104 97))
+		(line (pt 176 36)(pt 176 97))
+		(line (pt 184 27)(pt 192 27))
+		(line (pt 192 27)(pt 192 39))
+		(line (pt 192 39)(pt 184 39))
+		(line (pt 184 39)(pt 184 27))
+		(line (pt 184 34)(pt 186 36))
+		(line (pt 186 36)(pt 184 38))
+		(line (pt 176 36)(pt 184 36))
+		(line (pt 168 32)(pt 184 32)(line_width 3))
+		(line (pt 184 59)(pt 192 59))
+		(line (pt 192 59)(pt 192 71))
+		(line (pt 192 71)(pt 184 71))
+		(line (pt 184 71)(pt 184 59))
+		(line (pt 184 66)(pt 186 68))
+		(line (pt 186 68)(pt 184 70))
+		(line (pt 176 68)(pt 184 68))
+		(line (pt 168 64)(pt 184 64)(line_width 3))
+		(line (pt 0 0)(pt 257 0))
+		(line (pt 257 0)(pt 257 122))
+		(line (pt 0 122)(pt 257 122))
+		(line (pt 0 0)(pt 0 122))
+		(line (pt 0 0)(pt 0 0))
+		(line (pt 0 0)(pt 0 0))
+		(line (pt 0 0)(pt 0 0))
+		(line (pt 0 0)(pt 0 0))
+	)
+)
